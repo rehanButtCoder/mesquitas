@@ -1,0 +1,665 @@
+@import "/src/GlobalCss.scss";
+
+@mixin flexRight {
+    display: flex;
+    justify-content: right;
+}
+
+@mixin width33 {
+    width: 33%;
+    max-width: 33%;
+}
+
+.arrw {
+    display: flex;
+
+    img {
+        padding-right: 18px;
+    }
+}
+
+.saveBtn {
+    background-color: #007168;
+    color: white;
+    margin-right: 17px;
+}
+
+.buttonSet {
+    @include flexRight();
+}
+
+.addFieldsInput {
+    font-size: 12px;
+    color: #292929;
+    font-weight: 400;
+    padding-bottom: 14px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-bottom: 1px solid #292929;
+    width: 88%;
+    max-width: 88%;
+}
+
+.add_Fields {
+    @include width33();
+    margin-bottom: 40px;
+}
+
+.add_FieldsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fBtn:hover {
+    color: #292929;
+}
+
+.saveBtn:hover {
+    color: white;
+}
+
+// view
+.viewHead {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.viewpara {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1D1D1D;
+    word-wrap : break-word;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+// add mosque
+
+.main_body {
+    display: flex;
+}
+
+.edit-body {
+    width: 70%;
+    max-width: 70%;
+}
+
+.edit-body2 {
+    width: 30%;
+    max-width: 30%;
+}
+
+.mosque_Fields {
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.MosquebuttonSet {
+    margin-top: 50px;
+    display: flex;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: no-repeat;
+}
+
+.uploadHead {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: #292929;
+}
+
+.uploadPara {
+    font-weight: 400;
+    font-size: 10px;
+    color: #9B9B9B;
+}
+
+.bodr {
+    border-radius: 5px;
+}
+
+.setOp {
+    opacity: 1 !important;
+    margin-bottom: 19px;
+}
+
+.uplodimg {
+    text-align: center;
+}
+
+.width65 {
+    width: 65% !important;
+    max-width: 65% !important;
+}
+
+.sbtween {
+    justify-content: space-between !important;
+}
+
+.hiddenField {
+    position: relative;
+}
+
+.hide {
+    position: absolute;
+    left: 17.7%;
+    width: 202px;
+    top: 0px;
+    height: 155px;
+    opacity: 0;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+// add mosque multiselect
+.boxShdow0 {
+    box-shadow: none !important;
+    margin-top: 65px;
+    background-color: unset;
+}
+
+.multiSlect .searchWrapper {
+    border: none;
+    border-bottom: 1px solid;
+    padding-top: 3px;
+    border-radius: 0;
+}
+
+.multiSlect input {
+    padding-bottom: 9px;
+    margin-top: 0px;
+}
+
+.multiSlect span {
+    font-size: 12px;
+    color: black;
+    border-radius: 6px;
+    background-color: #E9E9E9;
+    font-family: "Poppins", sans-serif;
+}
+
+.clos {
+    margin-left: 20px;
+}
+
+span.icon_down_dir {
+    background-color: transparent;
+}
+
+.icon_down_dir::before {
+    display: none;
+}
+
+.width40 {
+    width: 40%;
+    max-width: 40%;
+}
+
+.mr73 {
+    margin-right: 73px;
+}
+
+.multiSelectContainer input {
+    border: none;
+    margin-top: 5px;
+    background: transparent;
+    font-size: 12px;
+    color: #292929;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+// dashboard
+
+.box-head h5 {
+    font-weight: 400;
+    color: #5A607F;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.box-head h3 {
+    font-size: 27px;
+    color: #131523;
+    font-weight: 600;
+}
+
+.fdate {
+    color: #3E6393;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.ldate {
+    font-size: 10px;
+    color: #7E84A3;
+    margin-left: 5px;
+}
+
+.box-description {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-box {
+    width: 33%;
+    max-width: 33%;
+    background-color: white;
+    padding: 21px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 24px #0000000a;
+    display: flex;
+}
+
+.dashboard-stats {
+    margin-bottom: 30px;
+}
+
+.box-footer {
+    align-self: center;
+    margin-left: auto;
+}
+
+.dashboard-box:nth-child(3) {
+    margin-right: 0;
+}
+
+.dashboard-boxes {
+    display: flex;
+    margin-top: 30px;
+}
+
+// mosque  details
+.mosqueMainSec {
+    display: flex;
+}
+
+.viewM-body {
+    width: 100%;
+    max-width: 100%;
+}
+
+.mHead {
+    color: #007168;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.eror {
+    color: red;
+    margin-top: 7px;
+    display: block;
+    margin-left: auto;
+    text-align: left;
+}
+
+.addDuaFieldBox {
+    max-width: 100%;
+    width: 100%;
+}
+
+// inline loder
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.relative {
+    position: relative;
+}
+
+.alignLoader {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+//   
+// 
+.editDua {
+    max-width: 100%;
+    width: 100%;
+}
+
+.deleteModal .swal2-html-container {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2D2D2E;
+    margin-bottom: 0;
+    margin-top: 36px;
+}
+
+.deleteModal .swal2-cancel.swal2-styled {
+    color: #007168;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #007168;
+    padding: 11px 70px;
+    border-radius: 8px;
+}
+
+.deleteModal .swal2-confirm.swal2-styled {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #007168;
+    border: 1px solid #007168;
+    padding: 11px 70px;
+    border-radius: 8px;
+}
+
+.setImg {
+    width: 202px;
+    height: 155px;
+    object-fit: cover;
+}
+
+.namazNames ul {
+    padding-left: 0;
+}
+
+.namazNames li {
+    list-style: none;
+    font-size: 15px;
+    color: #6B6B6B;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #E2E2E2;
+    margin-bottom: 18px;
+}
+
+.namazNames h4,
+.namazTimes h4 {
+    font-size: 16px;
+    color: #007168;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.namazFields {
+    font-size: 12px;
+    color: #292929;
+    font-weight: 400;
+    padding-bottom: 19px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-bottom: 2px solid #292929;
+    width: 80%;
+    max-width: 80%;
+}
+
+.namazFields {
+    font-size: 16px;
+    color: #6B6B6B;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #D0D0D0;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.3;
+}
+
+.NamazTimingContainer {
+    padding: 19px 60px 20px 30px;
+    box-shadow: 0px 8px 15px #0000001A;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namazNames {
+    width: 47%;
+}
+
+.namazTimes {
+    width: 27%;
+}
+
+.setNamazFields {
+    // width: 85%;
+    // max-width: 85%;
+    margin-bottom: 17px;
+}
+
+.mosque_left {
+    width: 68%;
+    max-width: 68%;
+}
+
+.mosque_right {
+    width: 32%;
+    max-width: 32%;
+}
+
+h3.nimazTimng {
+    font-size: 20px;
+    color: #007168;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.videoList {
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    background-color: #82171A26;
+    padding: 0px 30px;
+    border-radius: 8px;
+}
+
+.accessHead h4 {
+    font-size: 14px;
+    color: #464646;
+    font-weight: 500;
+}
+
+.accessHeads h4 {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    word-break: break-all;
+    padding-right: 20px;
+}
+
+.bg0 {
+    background-color: unset !important;
+    padding-bottom: 5px !important;
+}
+
+.LessonvideoList {
+    border-radius: 6px;
+    background-color: #FBFBFB;
+    align-items: center;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    padding: 0 30px;
+}
+
+.LessonvideoList h4 {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.bg0 h4 {
+    color: #007168;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.virtual {
+    width: 71px;
+    height: 53px;
+    // border: 1px solid;
+    display: block;
+    margin-left: auto;
+}
+
+.buttonsetEvents {
+    display: flex;
+    justify-content: left;
+}
+
+.mb15 {
+    margin-bottom: 25px;
+}
+
+.eventFields {
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.b {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a {
+    width: 20%;
+    margin-top: 50px;
+}
+
+.hides {
+    opacity: 0;
+    position: absolute;
+    left: 0%;
+    width: 130px;
+    top: 0px;
+    height: 114px;
+}
+
+.eventDetailContainer {
+    padding: 45px 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainP {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+.detailEventImg {
+    width: 195px;
+    height: 113px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.mb30{
+    margin-bottom: 30px !important;
+}
+
+.eventDetailh4 {
+    font-size: 16px;
+    color: #007168;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+.mhides {
+    opacity: 0;
+    position: absolute;
+    left: 25%;
+    width: 130px;
+    top: 0px;
+    height: 114px;
+}
+
+.ml120 {
+    margin-left: 120px;
+}
+
+.mosqueUploaddImg {
+    width: 130px;
+    height: 114px;
+    object-fit: cover;
+}
+
+.setDelBtn {
+    position: relative;
+}
+
+.delBtnAbsolute {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -6px;
+    top: -2px;
+    z-index: 999;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.setimgg {
+    width: 280px;
+    height: 160px;
+    border-radius: 12px;
+}
+.mr35{
+    margin-right: 35px;
+}
+.mt38{
+    margin-top: -38px;
+}
+
+.eventImgSet{
+width: 130px;
+height: 114px;
+object-fit: cover;
+}

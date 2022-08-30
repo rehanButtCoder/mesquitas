@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,800;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Arboria'; */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
+  margin: 0;
+  background-image: url(/assets/images/login/Mesquitas\ -\ login\ screen-v1.png);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.jVeafb:not(:last-of-type) {
+  border-bottom: 1px solid #D5D5D5 !important;
+}
+
+/* login */
+.eye-pass {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  z-index: 9;
+}
+
+.login_Form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  background-size: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-l label {
+  color: #515C6F;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+
+.login-l {
+  text-align: left;
+}
+
+.login-content {
+  text-align: center;
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 39px;
+  padding-bottom: 39px;
+  box-shadow: 10px 3px 50px #00000008;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  background-color: white;
+  max-width: 29%;
+}
+
+.login-name {
+  width: 100%;
+  max-width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.login-header h2 {
+  margin-top: 28px;
+  margin-bottom: 0px;
+  font-size: 36px;
+  color: #2E2E2E;
+  font-weight: 900;
+  /* font-family: 'Arboria' !important; */
+}
+
+.login-header p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B6B6B;
+  margin-top: 4px;
+}
+
+.form-login {
+  margin-top: 22px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* .login-name input:focus {
+  outline: none;
+} */
+.inputField {
+  font-size: 12px;
+  color: #515C6F;
+  padding: 13px 11px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0px 8px 15px #0000000f;
+  border-radius: 12px;
+  padding-left: 38px;
+  border: none;
+}
+
+.login-name::before {
+  content: url(/assets/images/login/signup.png);
+  position: absolute;
+}
+
+.login-pass {
+  width: 100%;
+  max-width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.login-pass::before {
+  content: url(/assets/images/tala.png);
+  position: absolute;
+}
+
+.login-button {
+  margin-top: 60px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 78%;
+  cursor: pointer;
+  width: 100%;
+  background-color: #007168;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  /* font-family: 'Arboria' !important; */
+}
+
+/* .side_dashboard_container {
+  margin-left: 140px;
+  padding-right: 55px;
+  background-color: #007168;
+  margin-bottom: 50px;
+} */
+
+.side_dashboard_container {
+  margin-left: 140px;
+  padding-right: 55px;
+  background-color: #007168;
+  margin-bottom: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.dashboardContainer {
+  margin-left: 195px;
+  margin-right: 55px;
+  margin-bottom: 50px;
+}
+
+/* sidebar */
+.sidebar-icons a {
+  text-decoration: none;
+}
+
+.sidenav {
+  padding-top: 13px;
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  text-align: center;
+  transition: all 0.3s;
+  border-right: 2px solid #EAEAEA;
+  border-left: 2px solid #EAEAEA;
+  background-color: white;
+}
+
+.sidebar-img {
+  padding-bottom: 10px;
+}
+
+.ctnnn {
+  color: #464646;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.sidebar-icons>div {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.sideBarBox {
+  padding: 23px 20px;
+  margin-bottom: 9px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.sidebar-icons>div:last-child {
+  border: none;
+}
+
+.sidebarIcons {
+  display: none;
+}
+
+.main_btn {
+  text-decoration: none;
+  font-size: 18px;
+  color: #007168;
+  padding: 9px 45px;
+  background-color: white;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.main_btn:hover {
+  color: #007168;
+}
+
+.right_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ctnnn {
+  color: #292929;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 6px;
+}
+
+.sidebarIconss {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  display: block;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.active {
+  background-color: #D0D0D0;
+}
+
+.right_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.main_nav>div {
+  width: 100%;
+  max-width: 73%;
+}
+
+.main_nav {
+  display: flex;
+}
+
+.profile {
+  margin-left: -52px;
+}
+
+.user-table-filter {
+  position: relative;
+}
+
+.user-table-filter:after {
+  content: url(/assets/images/srch.svg);
+  position: absolute;
+  left: 17px;
+  top: 6px;
+}
+
+/* ...................... */
+
+/* mosque */
+/* .dashboardHeading {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 34px;
+  margin-top: 150px;
+} */
+.dashboardHeading {
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 37px;
+  padding-bottom: 18px;
+  margin-top: 150px;
+}
+.arrw{
+  display: inline-flex !important;
+}
+.mainh2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2E2E2E;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.users-table {
+  background-color: white;
+  margin-bottom: 64px;
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+}
+
+.users-table-container {
+  padding: 29px 27px 19px 30px;
+}
+
+.srch {
+  border-radius: 17px;
+}
+
+input:focus {
+  transition: none !important;
+  outline: none;
+}
+
+.bttn_srch {
+  font-size: 12px;
+  color: #2E2E2E;
+  border: 1px solid #707070;
+  border-radius: 17px;
+  padding: 8px 15px 8px 40px;
+  width: 330px;
+  text-align: left;
+  background-color: white;
+  position: relative;
+  margin-right: 23px;
+}
+.bttn {
+  font-size: 13px;
+  border-radius: 12px;
+  background-color: #007168;
+  color: white;
+  padding: 10px 34px;
+  border: none;
+}
+
+.user-table-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+/* dropdown */
+.img1 {
+  padding: 5px;
+}
+
+.block .dropdown {
+  display: block !important;
+}
+
+.dropdown-content {
+  background-color: white;
+  /* padding: 7px 10px; */
+  position: absolute;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  left: -102px;
+  top: -65px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  padding: 7px 10px;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #007168;
+}
+
+.dropdown-content img {
+  padding-right: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: none;
+}
+
+.dropMainIcon2 {
+  display: none;
+}
+
+.dropdown-content a:hover .dropMainIcon2 {
+  display: inline-block;
+}
+
+.dropdown-content a:hover .dropMainIcon {
+  display: none;
+}
+
+/* ADD */
+a {
+  text-decoration: none !important;
+}
+
+textarea {
+  outline: none;
+}
+
+.eDitBtn {
+  font-size: 13px;
+  padding: 11px 44px;
+  border: 1px solid #707070;
+  border-radius: 12px;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #007168;
+  color: white;
+  width: 135px;
+  margin-top: -14px;
+  text-align: center;
+}
+.eDitBtn:hover{
+  color: white;
+}
+.dataTableContainer{
+  padding: 29px 14px 19px 30px;
+}
+/* //   loader */
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #007168;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+
+/* heading set */
+
+/* .dashboardHeading:after {
+  content: "";
+  width: 81.5%;
+  height: 1px;
+  background-color: #D9D9D9;
+  position: absolute;
+  top: 54%;
+}
+
+.arrw {
+  display: inline-flex;
+}
+
+.dashboardHeading {
+  padding-bottom: 18px;
+  border-bottom: none;
+  margin-bottom: 34px;
+  margin-top: 150px;
+} */
