@@ -66,11 +66,11 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className="users-table mb30">
+            {/* <div className="users-table mb30">
                 <div className="users-table-container">
                     <Graphs />
                 </div>
-            </div>
+            </div> */}
 
             <div className="users-table">
                 <div className="users-table-container">
