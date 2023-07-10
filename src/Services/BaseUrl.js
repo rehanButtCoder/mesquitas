@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Set config defaults when creating the instance
 const BaseUrl = axios.create({
-  baseURL: "https://mesquitasapi.jinnbytedev.com",
+  baseURL: "http://52.47.211.2:82/",
   headers: {
     "Cache-Control": "no-cache",
     Pragma: "no-cache",
